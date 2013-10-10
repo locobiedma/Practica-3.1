@@ -39,7 +39,7 @@ describe("Clase GameBoardSpec", function(){
         var board = new GameBoard();
         
         
-        var primer_objeto=function(){this.x=2;this.y=3;this.h=4; this.w=5}; //no hacen falta los this
+        var primer_objeto=function(){this.x=2;this.y=3;this.h=4; this.w=5};
         var segundo_objeto=function(){this.x=2;this.y=3;this.h=4; this.w=5};
         
         var obj1 = new primer_objeto();
